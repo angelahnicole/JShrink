@@ -55,7 +55,7 @@ backwards compatible.
     ],
     "require": {
         ...
-        "angelahnicole/jshrink": "0.5.*"
+        "angelahnicole/jshrink": "dev-master"
         ...
     }
 }

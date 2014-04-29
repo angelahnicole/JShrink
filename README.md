@@ -55,7 +55,7 @@ backwards compatible.
     ],
     "require": {
         ...
-        "tedivm/jshrink": "0.5.*"
+        "angelahnicole/jshrink": "0.5.*"
         ...
     }
 }

@@ -47,14 +47,16 @@ backwards compatible.
 {
     "repositories": [
         {
+            ...	
             "type": "vcs",
             "url": "https://github.com/angelahnicole/JShrink"
+            ...
         }
     ],
     "require": {
-        ....
+        ...
         "tedivm/jshrink": "0.5.*"
-        ....
+        ...
     }
 }
 ```
@@ -63,8 +65,10 @@ backwards compatible.
 
 To register JShrink with Laravel you must include it in the Autoloaded Service Providers array along with adding it to the list of Class Aliases. 
 
-**app/config/app.php**
+
 ```php
+// app/config/app.php
+...
 /*
 |--------------------------------------------------------------------------
 | Autoloaded Service Providers
@@ -76,9 +80,12 @@ To register JShrink with Laravel you must include it in the Autoloaded Service P
 |
 */
   'providers' => array(
-    'JShrink\JShrinkServiceProvider'
+    ...
+    'JShrink\JShrinkServiceProvider',
+    ...
   )
 
+...
 
 /*
 |--------------------------------------------------------------------------
@@ -91,8 +98,11 @@ To register JShrink with Laravel you must include it in the Autoloaded Service P
 |
 */
 	'aliases' => array( 
-	  'JShrink'         => 'JShrink\Minifier'
+	  ...
+	  'JShrink'         => 'JShrink\Minifier',
+	  ...
 	 )
+...
 ```
 
 ### Problems?

@@ -1,14 +1,14 @@
 {
-  "name": "tedivm/jshrink",
+  "name": "angelahnicole/jshrink",
   "description": "Javascript Minifier built in PHP",
   "keywords": ["minifier","javascript"],
-  "homepage": "http://github.com/tedivm/JShrink",
+  "homepage": "https://github.com/angelahnicole/JShrink",
   "type": "library",
   "license": "BSD-3-Clause",
   "authors": [
     {
-      "name": "Robert Hafner",
-      "email": "tedivm@tedivm.com"
+      "name": "Angela Gross",
+      "email": ""
     }
   ],
   "require": {
